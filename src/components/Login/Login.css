@@ -1,0 +1,10 @@
+.Login-Form {
+    width: 100%;
+    max-width: 300px;
+    margin: 4em auto auto;
+}
+.Login-Input {
+    width: 100%;
+    margin-bottom: 5px !important;
+    margin-top: 5px !important;
+}

@@ -1,0 +1,37 @@
+.JobCard {
+    max-width: 500px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.JobCard > .CardContent {
+}
+.Job-Description {
+    padding-top: 2em;
+    display: flex !important;
+    min-height: 200px;
+    padding-bottom: 2em;
+}
+.Job-Description > p {
+    margin: auto;
+}
+
+.JobCard-Wrapper {
+    position: absolute;
+    display: flex;
+    width: 100%;
+    height: 92%;
+    flex-direction: column;
+    justify-content: center;
+}
+.JobCard > .JobCard-Actions > button {
+    width: 50%;
+}
+.CardContent {
+    height: 100%;
+}
+.Button-Footer {
+    /*position: absolute;*/
+    bottom: 0;
+}
